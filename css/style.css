@@ -1,0 +1,157 @@
+:root {
+  --bark-bg-color: #0d1117;
+  --main-bg-color: #ffffff;
+  --second-bg-color: #333;
+  --icon-bg-color: #c9d1d9;
+  --light-bg-color: #eaf3f4;
+  --social-bg-color: #3b4452;
+  --line-bg-color: #eceaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  background-color: var(--main-bg-color);
+  transition: 0.5s ease-in-out;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.nav__info {
+  color: var(--bark-bg-color);
+  transition: 0.5s ease-in-out;
+}
+
+.nav__name {
+  font-size: 1.4em;
+}
+
+.nav__nav--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__link {
+  margin-left: 20px;
+  color: var(--bark-bg-color);
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon__color {
+  color: var(--social-bg-color);
+  margin-left: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+/* ---------------------------------------------------- */
+
+.section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 55px;
+}
+
+.section__discription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section__information {
+  font-size: 1.5em;
+  color: var(--third-bg-color);
+  width: 666px;
+  height: 400px;
+  padding-top: 77px;
+  letter-spacing: 1.1px;
+}
+
+.img {
+  height: 182px;
+  width: 298px;
+  margin-top: 44px;
+  transition: 0.5s ease-in-out;
+}
+
+.line {
+  border: 1px var(--line-bg-color) solid;
+}
+
+.footer {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.footer__text {
+  color: var(--bark-bg-color);
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------------------------------------------ */
+
+.dark__mode {
+  background-color: var(--second-bg-color);
+  transition: 0.5s ease-in-out;
+}
+
+.light__info {
+  color: var(--light-bg-color);
+  transition: 0.5s ease-in-out;
+}
+
+.light__links {
+  color: var(--icon-bg-color);
+  transition: 0.5s ease-in-out;
+}
+
+.light__icons {
+  color: var(--icon-bg-color);
+  transition: 0.5s ease-in-out;
+}

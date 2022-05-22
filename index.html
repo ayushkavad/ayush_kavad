@@ -21,11 +21,11 @@
                 <p class="nav__job">Software Engineer</p>
             </div>
 
-            <div>
+            <div class="all__links">
                 <ul class="nav__nav--links">
-                    <li><a href="" class="nav__link">About</a></li>
-                    <li><a href="#section2" class="nav__link">Experience</a></li>
-                    <li><a href="" class="nav__link">Contact</a></li>
+                    <li><a href="#section--1" class="nav__link">About</a></li>
+                    <li><a href="#section--2" class="nav__link">Experience</a></li>
+                    <li><a href="#section--3" class="nav__link">Contact</a></li>
                 </ul>
             </div>
 
@@ -68,11 +68,28 @@
                 <a class="btn"><img src="./img/sun.png" alt="" width="30px" id="myImage"></a>
             </div>
 
+
+            <div class="navigator">
+                <div class="navigation">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+
         </nav>
     </div>
 
+    <section class="section" id="section--1">
+        <h3 class="section__title">About</h3>
+        <div class="section__discription">
+            <!-- <p class="section__information"></p> -->
+        </div>
+    </section>
 
-    <section class="section" id="section2">
+
+    <section class="section" id="section--2">
         <h3 class="section__title">Experience</h3>
         <div class="section__discription">
             <img class="img" src="./img/hello.png" alt="" id="newImg">
@@ -83,7 +100,38 @@
                 Stripe Server-side website rendering with Pug templates Sending emails & uploading files.</p>
         </div>
     </section>
-    <hr class="line" />
+
+    <section class="section-book" id="section--3">
+        <div class="row">
+            <div class="book">
+                <div class="book__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                Contact Me
+                            </h2>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Full name" id="name" required="">
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Email address" id="email" required="">
+                            <label for="email" class="form__label">Email address</label>
+                        </div>
+
+
+                        <div class="form__group">
+                            <button class="button btn--green">Next step →</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="hr" />
     <footer class="footer">
         <!-- <p class="footer__text">© 2022 by Ayush kavad. All rights reserved.</p> -->
     </footer>

@@ -48,6 +48,16 @@ for (let i = 0; i < section__title.length; i++) {
   });
 }
 
+document.querySelector(".nav__nav--links").addEventListener("click", (e) => {
+  e.preventDefault();
+
+  // Matching strategy
+  if (e.target.classList.contains("nav__link")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+});
+
 const date = new Date();
 const year = date.getFullYear();
 

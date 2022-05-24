@@ -6,13 +6,20 @@ const icon = document.querySelectorAll(".icon__color");
 const newImg = document.getElementById("newImg");
 const image = document.getElementById("myImage");
 const section__information = document.querySelector(".section__information");
+const section__information_n = document.querySelector(
+  ".section__information_n"
+);
+
 const section__title = document.querySelectorAll(".section__title");
 const footer = document.querySelector(".footer");
+const center = document.querySelector(".title_center");
 
 const $change_Mode = () => {
   container.classList.toggle("dark__mode");
   info.classList.toggle("light__info");
   section__information.classList.toggle("light__info");
+  section__information_n.classList.toggle("light__info");
+  center.classList.toggle("center");
 };
 
 changeMode.addEventListener("click", () => {
